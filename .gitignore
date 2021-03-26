@@ -16,9 +16,10 @@ tmtags
 tags
 
 ## Bundler
-Gemfile.lock
-.bundle
-vendor/
+/Gemfile.lock
+/Gemfile.local
+/.bundle
+/vendor/
 
 ## rbenv / rvm
 .rbenv*
@@ -26,11 +27,30 @@ vendor/
 .ruby-*
 
 ## rspec
-spec/fixtures/
+/spec/fixtures/manifests/
+/spec/fixtures/modules/
 
 ## Puppet module
-pkg/
-coverage/
+/pkg/
+/coverage/
 
 ## InteliJ / RubyMine
 .idea
+
+## Added by PDK
+.git/
+.metadata
+.yardoc
+.yardwarns
+*.iml
+/.vagrant/
+/bin/
+/doc/
+/junit/
+/log/
+/tmp/
+/convert_report.txt
+/update_report.txt
+.project
+.envrc
+/inventory.yaml
